@@ -1,0 +1,25 @@
+// Reset CSS
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Fontes e variáveis 
+:root {
+    --black: #000;
+    --grey: #888;
+    --white: #fff;
+}
+
+*, input, button {
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    background: var(--black);
+    color: var(--grey);
+
+    font-size: 62.5%;
+}
